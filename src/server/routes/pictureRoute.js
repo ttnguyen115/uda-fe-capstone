@@ -4,6 +4,6 @@ const express = require("express");
 const router = express.Router();
 const pictureController = require("../controllers/pictureController");
 
-router.get("/picture", pictureController.signUp);
+router.post("/picture", pictureController.findPicture);
 
 module.exports = router;
