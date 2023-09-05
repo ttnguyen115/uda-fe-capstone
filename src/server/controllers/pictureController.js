@@ -6,7 +6,7 @@ const DEFAULT_API_KEY = "39257147-c6b046ccbf3a152f1ec777aa8";
 const MAX_PICTURE_COUNT = 10;
 
 const locationAxios = axios.create({
-  baseURL: "https://pixabay.com/api/",
+  baseURL: "https://pixabay.com/api",
   headers: {
     "Content-Type": "application/json",
   },

@@ -17,7 +17,7 @@ const locationAxios = axios.create({
 });
 
 class LocationController {
-  postLocation = async (req, res, next) => {
+  findLocation = async (req, res, next) => {
     const params = { name: req.body.name };
     try {
       console.log(`[P]::LocationController::${req.body}`);
